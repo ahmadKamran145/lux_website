@@ -1,0 +1,87 @@
+{
+    "header": {
+        "signIn": "Sign In",
+        "offeringServices": "Offering Services?"
+    },
+    "hero": {
+        "title": "Book Local \n Services Instantly.",
+        "subtitle": "Fast, friendly, and always close by.",
+        "bookNow": "Book Now"
+    },
+    "services": {
+        "handyman": "Handyman",
+        "homeCleaning": "Home Cleaning",
+        "dogWalking": "Dog Walking",
+        "dogWalkingFull": "Dog Walking",
+        "dogWalkingFullMobile": "Dog Walking",
+        "laundryPickUp": "Laundry Pick-Up",
+        "rating": "Rating",
+        "distancePrefix": "",
+        "distanceSuffix": "km away"
+    },
+    "whatIsLux": {
+        "title": "What Is Lux",
+        "description": "Lux connects Mexico‑City locals with verified pros for everyday tasks fast, simple, nearby.",
+        "currentServices": "Current Services",
+        "currentServicesLower": "Current services",
+        "servicesComingSoon": "Services Coming Soon",
+        "servicesComingSoonLower": "Services coming soon",
+        "personalTraining": "Personal Traning",
+        "plantCare": "Plant Care",
+        "cooking": "Cooking",
+        "languageTutor": "Language Tutor"
+    },
+    "whyChooseLux": {
+        "title": "Why Choose Lux?",
+        "subtitle": "Fast, friendly, and always close by.",
+        "fastBookingTitle": "Fast, easy booking",
+        "fastBookingTitleMobile": "Fast, easy booking",
+        "fastBookingSubtitle": "never wait for quotes",
+        "fastBookingSubtitleMobile": "never wait for quotes",
+        "fastBookingSubtitleMobile2": "",
+        "fastBookingSubtitleTablet": "never wait for quotes",
+        "fastBookingDesc": "Book instantly with clear, upfront prices no hidden fees or time‑wasting phone calls.",
+        "vettedProvidersTitle": "Vetted local providers",
+        "vettedProvidersTitleMobile": "Vetted local providers",
+        "vettedProvidersTitleMobile2": "",
+        "vettedProvidersDesc": "Every Lux pro is identity‑checked and reviewed by neighbors, so you always get quality, reliable service.",
+        "effortlessTitle": "Effortless recurring",
+        "effortlessTitleMobile": "Effortless recurring",
+        "effortlessSubtitleMobile": "appointments",
+        "effortlessTitleTablet": "Effortless recurring",
+        "effortlessSubtitle": "appointments",
+        "effortlessSubtitleTablet": "appointments",
+        "effortlessDesc": "Schedule once and relax Lux automatically handles your regular visits to keep everything consistently spotless."
+    },
+    "startEarning": {
+        "title": "Start Earning",
+        "titleMobile": "Start Earning",
+        "titleSpan": "With Lux",
+        "titleSpanMobile": "With Lux",
+        "description": "Join Lux, share your services, and start making money fast. See why Lux is the easiest way to earn in CDMX.",
+        "descriptionMobile": "Join Lux, share your services, and start earning fast. See why Lux is the easiest way to earn in CDMX.",
+        "applyToJoin": "Apply to Join"
+    },
+    "footer": {
+        "bookNow": "Book Now",
+        "whatIsLux": "What is Lux",
+        "ourServices": "& Our Services",
+        "whyChooseLux": "Why Choose Lux",
+        "startEarning": "Start Earning",
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "x": "X",
+        "chatWithUs": "Chat with us",
+        "chatWith": "Chat with",
+        "us": "us",
+        "faqs": "FAQs",
+        "privacy": "Privacy",
+        "privacyMobile": "Privacy",
+        "terms": "Terms",
+        "termsMobile": "Terms",
+        "safety": "Safety",
+        "safetyMobile": "Safety",
+        "copyright": "© 2025 Lux.",
+        "allRightsReserved": "All rights reserved."
+    }
+}
