@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/GeneralSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/GeneralSans-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/GeneralSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+:root {
+
+  --color-primary: #00C974;
+  --color-primary-hover: #00B066;
+  --color-dark: #1A1A1A;
+  --color-light: #FFFFFF;
+  --color-gray-bg: #F5F5F5;
+  --color-gray-card: #F8F8F8;
+  --color-text: #1A1A1A;
+  --color-text-muted: #666666;
+  --color-coral: #FFEBE8;
+  --color-coral-text: #FF6B6B;
+  --color-border: #E5E5E5;
+  --color-slate: #F7F7FC;
+
+  --font-heading: "AR One Sans", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-general-sans: "General Sans", sans-serif;
+
+
+  --container-max-width: 960px;
+  --container-padding: 1.5rem;
+
+
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-heading);
+
+
+  --breakpoint-lg: 1439px;
+  --breakpoint-custom-md: 810px;
+  --breakpoint-large-mobile: 390px;
+  --breakpoint-mobile: 320px;
+
+
+  --color-primary: #00C974;
+  --color-primary-hover: #00B066;
+  --color-dark: #1A1A1A;
+  --color-gray-bg: #F5F5F5;
+  --color-gray-card: #F8F8F8;
+  --color-coral: #FFEBE8;
+  --color-coral-text: #FF6B6B;
+  --color-border: #E5E5E5;
+  --color-text-muted: #666666;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+.font-general-sans {
+  font-family: var(--font-general-sans);
+}
+
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #333333;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1.5px solid var(--color-primary);
+  color: var(--color-dark);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
